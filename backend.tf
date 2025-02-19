@@ -1,8 +1,8 @@
 terraform {
   required_version = "~> 1.10.0"
   backend "s3" {
-    bucket = "tsanghan-tfstate"
+    bucket = "dmonye-tfstate"
     key    = "f5xc-cicd.tfstate"
-    region = "ap-southeast-1"
+    region = "us-east-1"
   }
 }
